@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile>
+  <diagram name="Use Case Diagram">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ===== SYSTEM BOUNDARY ===== -->
+        <mxCell id="2" value="Ride Hailing System" style="shape=rectangle;rounded=1;fillColor=none;strokeColor=#000000;fontSize=14;fontStyle=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="580" height="700" as="geometry" />
+        </mxCell>
+
+        <!-- ===== ACTORS ===== -->
+
+        <!-- Rider -->
+        <mxCell id="10" value="Rider" style="shape=mxgraph.flowchart.start_2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Rider" style="text;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="285" width="50" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Driver -->
+        <mxCell id="12" value="Driver" style="shape=mxgraph.flowchart.start_2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Driver" style="text;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="505" width="50" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Admin -->
+        <mxCell id="14" value="Admin" style="shape=mxgraph.flowchart.start_2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="860" y="300" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Admin" style="text;align=center;" vertex="1" parent="1">
+          <mxGeometry x="860" y="365" width="50" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- ===== USE CASES ===== -->
+
+        <!-- Register / Login (shared) -->
+        <mxCell id="20" value="Register" style="ellipse;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="Login" style="ellipse;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="420" y="80" width="140" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Rider use cases -->
+        <mxCell id="30" value="Request Ride" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="View Ride Status" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="420" y="200" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="Cancel Ride" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="Make Payment" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="420" y="280" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="34" value="View Ride History" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="160" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Driver use cases -->
+        <mxCell id="40" value="Accept Ride" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="420" y="440" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="41" value="Update Ride Status" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="42" value="Update Driver Status" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="420" y="520" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="43" value="View Assigned Rides" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="520" width="160" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Admin use cases -->
+        <mxCell id="50" value="Manage Drivers" style="ellipse;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="580" y="340" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="51" value="Manage Riders" style="ellipse;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="580" y="420" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="52" value="View All Rides" style="ellipse;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="580" y="500" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="53" value="View Payments" style="ellipse;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="580" y="580" width="160" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- ===== ACTOR TO USE CASE LINES ===== -->
+
+        <!-- Rider -> Register / Login -->
+        <mxCell id="60" edge="1" source="10" target="20" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="61" edge="1" source="10" target="21" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Rider -> Rider use cases -->
+        <mxCell id="62" edge="1" source="10" target="30" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="63" edge="1" source="10" target="31" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="64" edge="1" source="10" target="32" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="65" edge="1" source="10" target="33" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="66" edge="1" source="10" target="34" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Driver -> Register / Login -->
+        <mxCell id="70" edge="1" source="12" target="20" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="71" edge="1" source="12" target="21" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Driver -> Driver use cases -->
+        <mxCell id="72" edge="1" source="12" target="40" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="73" edge="1" source="12" target="41" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="74" edge="1" source="12" target="42" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="75" edge="1" source="12" target="43" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Admin -> Login -->
+        <mxCell id="80" edge="1" source="14" target="21" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Admin -> Admin use cases -->
+        <mxCell id="81" edge="1" source="14" target="50" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="82" edge="1" source="14" target="51" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="83" edge="1" source="14" target="52" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="84" edge="1" source="14" target="53" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
