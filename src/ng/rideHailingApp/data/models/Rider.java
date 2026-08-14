@@ -1,4 +1,4 @@
-package data.models;
+package ng.rideHailingApp.data.models;
 
 import lombok.Data;
 import org.springframework.data.mongodb.core.mapping.Document;

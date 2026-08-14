@@ -1,6 +1,6 @@
-package data.repositories;
+package ng.rideHailingApp.data.repositories;
 
-import data.models.Rider;
+import ng.rideHailingApp.data.models.Rider;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

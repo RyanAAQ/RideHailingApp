@@ -1,7 +1,6 @@
-package data.repositories;
+package ng.rideHailingApp.data.repositories;
 
-import data.models.Driver;
-import data.models.DriverStatus;
+import ng.rideHailingApp.data.models.Driver;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
